@@ -1,12 +1,13 @@
 # Amazon_Vine_Analysis
-**note: on my Amazon_Reviews_ETL.ipynb the first table that is importing the review_id_df to pgAdmin has error, but that was because I ran it twice, but the data on the table was imported to pgAdmin, please picture named review_id_df.png. The only reason why I did not delete the table and ran the code again was mainly because all four tables took about two hours to load data into. I hope this doesn't interfere with the grade. 
+**Note: on my Amazon_Reviews_ETL.ipynb the first table that is importing the review_id_df to pgAdmin has error, but that was because I ran it twice, but the data on the table was imported to pgAdmin, please picture named review_id_df.png. The only reason why I did not delete the table and ran the code again was mainly because all four tables took about two hours to load data into. I hope this doesn't interfere with the grade. 
 
 ## Overview:
 In this project, we were tasked with analyzing databases from Amazon reviews. To analyze these databases, we were given new tools to share the analysis publicly, such as AWS and google Collab using Pyspark. Having picked the shoes database for reviews, we had to create an RDS in AWS and link it to Pyspark. The process of analyzing this data was by using ETL. The first step is to export the data which is done by Pyspark and using Pyspark code we were also able to transform the data by breaking down each database into four individual tables that we would load information to using SQL. 
 
 ## Results:
 
-![paid_reviews]() 
+![paid_reviews](https://github.com/Mparra14/Amazon_Vine_Analysis/blob/main/paid_reviews.png)
+
 ![non_paid_reviews]()
 * In my database, there were 22 vine reviews, while there were 26987 non-Vine reviews. These databases can be seen in the pictures above respectively.
 
