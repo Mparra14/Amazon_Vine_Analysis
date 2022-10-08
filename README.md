@@ -8,7 +8,7 @@ In this project, we were tasked with analyzing databases from Amazon reviews. To
 
 ![paid_reviews](https://github.com/Mparra14/Amazon_Vine_Analysis/blob/main/paid_reviews.png)
 
-![non_paid_reviews]()
+![non_paid_reviews](https://github.com/Mparra14/Amazon_Vine_Analysis/blob/main/unpaid_reviews.png)
 * In my database, there were 22 vine reviews, while there were 26987 non-Vine reviews. These databases can be seen in the pictures above respectively.
 
 * When it comes to Vine reviews that were given 5 stars there were only 13 reviews out of the 22. For the non-Vine reviews that were 5 stars were a total of 14475.
